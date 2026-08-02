@@ -2,7 +2,7 @@
 
 # 🤖 AI & ML Week 5 Tasks
 
-### Artificial Intelligence Internship – Week 5
+### Artificial Intelligence & Machine Learning Internship – Week 5
 
 <img src="https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python">
 <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-green?style=for-the-badge&logo=pandas">
@@ -14,20 +14,44 @@
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
-This repository contains my **Week 5 Artificial Intelligence internship task**, developed using **modular programming** and Machine Learning.
+This repository contains my **Week 5 Artificial Intelligence and Machine Learning internship tasks**, developed using **modular programming**, **Scikit-learn**, and **Matplotlib**.
 
-### ✨ Features
+---
+
+## 🤖 Artificial Intelligence Task
+
+### Topic
+
+**AI Model Implementation**
+
+### Features
 
 - 🤖 AI-Based Intelligent System
 - 🧹 Data Preprocessing
 - 🌳 Random Forest Classifier
 - 🎯 Prediction System
 - 📈 Accuracy Evaluation
-- 📊 Result Visualization
 - 💻 User Input Handling
-- 🧩 Modular Python Code
+- 📊 Result Visualization
+
+---
+
+## 📊 Machine Learning Task
+
+### Topic
+
+**Model Evaluation & Tuning**
+
+### Features
+
+- 📚 Train Multiple Models
+- ⚖️ Compare Model Performance
+- 🔧 Hyperparameter Tuning (GridSearchCV)
+- 📈 Evaluation Metrics
+- 📊 Accuracy Comparison Chart
+- 📝 Evaluation Report Generation
 
 ---
 
@@ -47,6 +71,19 @@ AI-ML-Week5-Tasks/
 │   ├── main.py
 │   └── README.md
 │
+├── ML_Task/
+│   ├── dataset.csv
+│   ├── data_loader.py
+│   ├── preprocessing.py
+│   ├── models.py
+│   ├── evaluation.py
+│   ├── tuning.py
+│   ├── visualization.py
+│   ├── report.py
+│   ├── evaluation_report.csv
+│   ├── main.py
+│   └── README.md
+│
 ├── requirements.txt
 ├── .gitignore
 └── README.md
@@ -54,20 +91,28 @@ AI-ML-Week5-Tasks/
 
 ---
 
-## 🛠 Technologies
+## 🛠 Technologies Used
 
-- Python
-- Pandas
-- Scikit-learn
-- Matplotlib
+- 🐍 Python
+- 🐼 Pandas
+- 🤖 Scikit-learn
+- 📊 Matplotlib
 
 ---
 
-## ▶️ Run the Project
+## ▶️ Run the Projects
+
+### Artificial Intelligence Task
 
 ```bash
-pip install -r requirements.txt
 cd AI_Task
+python main.py
+```
+
+### Machine Learning Task
+
+```bash
+cd ML_Task
 python main.py
 ```
 
@@ -77,12 +122,14 @@ python main.py
 
 **Yasmeen Gull**
 
-BS Computer Science Student | AI & Machine Learning Enthusiast
+BS Computer Science Student | Artificial Intelligence & Machine Learning Enthusiast
 
 ---
 
 <div align="center">
 
-⭐ **If you like this project, don't forget to star the repository!**
+⭐ **If you found this repository helpful, consider giving it a Star!**
+
+Made with ❤️ using Python
 
 </div>
